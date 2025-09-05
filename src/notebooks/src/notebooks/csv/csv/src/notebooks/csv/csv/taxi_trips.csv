@@ -1,0 +1,2 @@
+trip_id,taxi_id,trip_start_timestamp,trip_end_timestamp,trip_seconds,trip_miles,pickup_community_area_id,dropoff_community_area_id
+000001dd3888f74eaf131b0627d367e8c5b73cc4,d5fc0adc436b269c2ce07e37eff1af604a963c8538536bd6be39f0b399c0a6b14bafdaca01d34d939738ae4df46ddbeaf7b83aeb4506199bb645112e791e07e9,2024-02-26 14:30:00,2024-02-26 15:15:00,2640,16.3,76,5
