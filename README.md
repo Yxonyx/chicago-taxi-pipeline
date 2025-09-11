@@ -226,3 +226,7 @@ The `08_local_visualizations.ipynb` notebook downloads processed data from S3 an
 
 ### Key Analysis Results (72,739 trips over 4 days: July 8-11, 2025)
 
+ ### Taxi vs. Weather Comparison
+I don’t have enough data yet to properly compare taxi trips with weather data, but the dataset is updating daily.
+
+
