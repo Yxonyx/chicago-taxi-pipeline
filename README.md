@@ -169,53 +169,48 @@ The `08_local_visualizations.ipynb` notebook downloads processed data from S3 an
 3. **Local Download**: Notebook downloads processed data for analysis
 4. **Interactive Exploration**: Create visualizations and derive insights
 
-### Key Analysis Results (72,739 trips over 4 days: July 8-11, 2025)
+### Key Analysis Results  
+(72,739 trips over 4 days: July 8-11, 2025)  
 
-#### 1. Payment Methods Distribution
-<img width="1191" height="657" alt="Képernyőkép 2025-09-11 192729" src="https://github.com/user-attachments/assets/9a696fa3-f845-4e1e-91d5-e4287efe0a52" />
+#### 1. Payment Methods Distribution  
+![Payment Methods](https://github.com/user-attachments/assets/9a696fa3-f845-4e1e-91d5-e4287efe0a52)  
 
-- **Cash**: 36,421 trips (50.1%) - Still dominant in taxi industry
-- **Credit Card**: 24,892 trips (34.2%) - Growing electronic payments
-- **Mobile**: 8,547 trips (11.7%) - Modern payment adoption
-- **Other**: 2,879 trips (4.0%) - Prcard, No Charge, Unknown
+- **Credit Card**: 24,660 trips (33.9%) – Most popular payment method  
+- **Cash**: 17,826 trips (24.5%) – Traditional payment still significant  
+- **Mobile**: 17,567 trips (24.2%) – Strong modern payment adoption  
+- **Dispute**: 49 trips (0.1%) – Payment disputes  
 
 #### 2. Taxi Company Market Share Analysis  
-<img width="1151" height="735" alt="Képernyőkép 2025-09-11 192750" src="https://github.com/user-attachments/assets/95202867-4cf1-45c7-b073-d3a4b352c6d5" />
+![Market Share](https://github.com/user-attachments/assets/95202867-4cf1-45c7-b073-d3a4b352c6d5)  
 
-- **Market Leader**: Taxi Affiliation Services (8,247 trips, 11.3%)
-- **Top 5 Companies**: Control 35.2% of total market
-- **Market Fragmentation**: 37 companies compete, showing diverse ecosystem
-- **Small Players**: Many companies handle <1,000 trips per period
+- **Market Leader**: Flash Cab (14,785 trips, 20.3%)  
+- **Second Place**: Taxi Affiliation Services (11,216 trips, 15.4%)  
+- **Third Place**: Taxicab Insurance Agency LLC (9,020 trips, 12.4%)  
+- **Strong Consolidation**: Top 5 companies dominate the market  
 
-#### 3. Peak Hours Traffic Patterns
-<img width="1175" height="550" alt="Képernyőkép 2025-09-11 192806" src="https://github.com/user-attachments/assets/1b225078-ce13-42e8-be39-9d2a07d25b40" />
+#### 3. Peak Hours Traffic Patterns  
+![Peak Hours](https://github.com/user-attachments/assets/1b225078-ce13-42e8-be39-9d2a07d25b40)  
 
-- **Morning Rush**: 7-9 AM peak (4,200+ trips/hour)
-- **Evening Peak**: 6-8 PM highest demand (4,800+ trips/hour)  
-- **Night Decline**: Minimal activity 1-5 AM (<1,500 trips/hour)
-- **Business Hours**: Consistent demand 10 AM - 4 PM
+- **Evening Peak**: 5–6 PM highest demand (5,433 trips at 17:00)  
+- **Afternoon Rush**: 3–5 PM consistently high (5,000+ trips/hour)  
+- **Secondary Peak**: 4 PM second highest (5,259 trips)  
+- **Night Decline**: Minimal activity after 10 PM  
 
-#### 4. Revenue Analysis by Pickup Location
-<img width="1144" height="727" alt="Képernyőkép 2025-09-11 192853" src="https://github.com/user-attachments/assets/4820e02d-cfaa-4816-a96e-b4bf624b1158" />
+#### 4. Revenue Analysis by Pickup Location  
+![Revenue by Pickup](https://github.com/user-attachments/assets/4820e02d-cfaa-4816-a96e-b4bf624b1158)  
 
-- **O'Hare Airport**: $284,530 total revenue (highest earner)
-  - Average fare: $45.23 (long-distance premium)
-  - 6,287 trips (consistent airport demand)
-- **Near North Side**: $178,945 revenue (downtown business district)
-- **Loop**: $156,780 revenue (financial district)
-- **Driver Strategy**: Airport = highest revenue, downtown = highest volume
+- **O'Hare Airport**: $564,909 total revenue (highest earner)  
+  - Average fare: $52.91 (premium long-distance)  
+  - 10,677 trips (consistent airport demand)  
+- **Driver Strategy**: Airport = highest revenue per trip, downtown = highest volume  
 
-#### 5. Night Service Patterns (22:00-06:00)
-<img width="1209" height="742" alt="image" src="https://github.com/user-attachments/assets/20b2d668-f7a5-4584-bd86-ae96fce8dffc" />
+#### 5. Night Service Patterns (22:00–06:00)  
+![Night Service](https://github.com/user-attachments/assets/20b2d668-f7a5-4584-bd86-ae96fce8dffc)  
 
-- **Total Night Trips**: 9,045 out of 72,739 (24.4% of daily volume)
-- **Top Night Areas**:
-  - O'Hare: 1,247 trips (13.8% of night market)
-  - Near North Side: 892 trips (9.9%) 
-  - Loop: 643 trips (7.1%)
-- **Night Concentration**: Top 10 areas handle 67.3% of night pickups
-- **Service Strategy**: Night drivers should focus on entertainment districts and airport
-
+- **Total Night Trips**: 8,176 out of 72,739 (11.2% of daily volume)  
+- **Top Night Areas**:  
+  - **O'Hare**: 2,100 trips (25.7% of night market)
+    
 ### Business Intelligence Insights
 - **Revenue Optimization**: O'Hare generates 2.5x higher average fares than city center
 - **Payment Trends**: 45.9% electronic payments show industry modernization
@@ -227,3 +222,7 @@ The `08_local_visualizations.ipynb` notebook downloads processed data from S3 an
 - **Weather Data**: Open-Meteo API (temperature, wind, precipitation)
 - **Community Areas**: Wikipedia scraping
 - **Date Range**: 72,739 trips over 4 days (2025-07-08 to 2025-07-11)
+
+
+### Key Analysis Results (72,739 trips over 4 days: July 8-11, 2025)
+
